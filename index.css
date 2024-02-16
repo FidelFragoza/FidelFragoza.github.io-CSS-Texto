@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+#titulo {
+    text-align: center;
+    text-wrap: pretty;
+    padding: 4vh;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: blue;
+}
+
+#subtitulo {
+    font-style: italic;
+    text-align: justify;
+    margin: 2vh;
+    padding: 0.1vh;
+}
+
+p {
+    text-align: justify;
+    margin: 2vh;
+    text-wrap: pretty;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+    /* Posición absoluta abajo */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
